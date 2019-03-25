@@ -15,7 +15,7 @@ return this.toppings + this.size
 $(document).ready(function() {
   $("form#pizza").submit(function(event) {
 
-    debugger;
+    //debugger;
 
     var size = parseInt($("input:radio[name=size]:checked").val());
 
@@ -26,13 +26,13 @@ $(document).ready(function() {
 
    var newAnswer =  new Result (toppings, size);
    var sum = newAnswer.newPizza(toppings, size);
-   if (sum <= 3) {
+   if (sum <= 4) {
      $("#answer").text("15.00");
    } else if (sum <= 7) {
-      $("#answer").text("$10.00");
-       } else  {
-        $("#answer").text("$15.00");
-      }
+      $("#answer").text("$20.00");
+    } else
+       $("#answer").text("$25.00");
+     })
 
 
 
@@ -45,6 +45,5 @@ $(document).ready(function() {
   ($("input:radio[name=day]:checked").val());
   $("input:checkbox[name=toppings]:checked").each(function(){
          toppings ++;
-});
 });
 });
