@@ -1,3 +1,4 @@
+// Business Logic:
 
 var toppings = 0
 
@@ -11,6 +12,8 @@ function Result(toppings, size) {
 Result.prototype.newPizza = function(toppings, size) {
 return this.toppings + this.size
 }
+
+// User Logic:
 
 $(document).ready(function() {
   $("form#pizza").submit(function(event) {
