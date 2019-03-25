@@ -43,6 +43,8 @@ $(document).ready(function() {
 
     $("#output").show();
 
+    $("#pizza")[0].reset();
+
     event.preventDefault();
   });
   ($("input:radio[name=day]:checked").val());
