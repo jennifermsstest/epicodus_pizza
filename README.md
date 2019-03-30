@@ -16,7 +16,7 @@ _{This is a form that collects data from the visitor and determines the cost for
 * Add JS folder with scripts.js and jquery-3.3.1.js files for form functionality
 * Use constructors and prototypes to calculate cost
 
-Clone and enjoy! [Link to project page.](github.com/jennifermsstest/epicodus_vacation_project)
+Clone and enjoy! [Link to project page.](https://jennifermsstest.github.io/epicodus_pizza/)
 
 ## Known Bugs
 
